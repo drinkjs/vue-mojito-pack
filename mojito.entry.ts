@@ -1,0 +1,1 @@
+export const PackText = async ()=> (await import("./src/MyVueComponent.vue")).PackText;

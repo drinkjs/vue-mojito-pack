@@ -1,0 +1,28 @@
+{
+  "name": "vue-mojito-pack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "mojito",
+    "dev": "mojito --dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drinkjs/vue-mojito-pack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drinkjs/vue-mojito-pack/issues"
+  },
+  "homepage": "https://github.com/drinkjs/vue-mojito-pack#readme",
+  "devDependencies": {
+    "@drinkjs/mojito-compiler": "^1.0.5",
+    "@drinkjs/mojito-vue-pack": "^1.0.0",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "vue": "^3.3.4"
+  }
+}
