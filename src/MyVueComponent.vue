@@ -1,14 +1,13 @@
 <template>
-	<div :style="styles">{{ text }}</div>
+	<div>{{ text }}</div>
 </template>
 
 <script lang="ts">
-import { CreatePack, MojitoComponentProps } from "@drinkjs/mojito-vue-pack";
+import { CreatePack } from "@drinkjs/mojito-vue-pack";
 import { defineComponent } from "vue";
 
 const Text = defineComponent({
 	props: {
-		...MojitoComponentProps,
 		text: String,
 	},
 });
